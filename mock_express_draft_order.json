@@ -1,0 +1,47 @@
+{
+  "createAt": 1672531200000,
+  "courierType": "instant_delivery",
+  "deliveryDistance": 12.5,
+  "deliveryETA": 45,
+  "deliveryFee": "5.50",
+  "note": "Handle with care",
+  "pickupLocation": {
+    "label": "Sender's Home",
+    "latitude": 10.762622,
+    "longitude": 106.660172
+  },
+  "sender": {
+    "name": "John Doe",
+    "phoneNumber": "+85512345678",
+    "address": "123 Main Street, City, Country",
+    "location": {
+      "label": "Sender's Home",
+      "latitude": 10.762622,
+      "longitude": 106.660172
+    },
+    "noted": "Ring the doorbell"
+  },
+  "receivers": [
+    {
+      "name": "Jane Smith",
+      "phoneNumber": "+85598765432",
+      "address": "456 Another Street, City, Country",
+      "location": {
+        "label": "Receiver's Office",
+        "latitude": 10.780622,
+        "longitude": 106.690172
+      },
+      "noted": "Leave at reception desk"
+    }
+  ],
+  "status": "draft",
+  "settlementAccountName": "",
+  "settlementAccountNumber": "",
+  "settlementBank": "",
+  "totalCollectPayment": 0,
+  "totalDeliveryFee": 5.5,
+  "subTotalAmount": 94.5,
+  "totalAmount": 100.0,
+  "voucher": null,
+  "updateAt": 1672534800000
+}
