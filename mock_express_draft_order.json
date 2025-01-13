@@ -1,5 +1,5 @@
 {
-  "result": "success",
+  "result": true,
   "result_code": 200,
   "result_message": "Operation successful",
   "trace_id": "unique-trace-id-123",
