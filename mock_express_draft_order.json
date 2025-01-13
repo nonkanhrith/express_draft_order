@@ -40,9 +40,6 @@
       }
     ],
     "status": "draft",
-    "settlementAccountName": "",
-    "settlementAccountNumber": "",
-    "settlementBank": "",
     "totalCollectPayment": 0,
     "totalDeliveryFee": 5.5,
     "subTotalAmount": 94.5,
