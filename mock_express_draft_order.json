@@ -1,6 +1,6 @@
 {
   "result": true,
-  "result_code": "200",
+  "result_code": "EA_200",
   "result_message": "Operation successful",
   "trace_id": "unique-trace-id-123",
   "body": {
@@ -47,7 +47,6 @@
     "totalDeliveryFee": 5.5,
     "subTotalAmount": 94.5,
     "totalAmount": 100.0,
-    "voucher": "null",
     "updateAt": 1672534800000
   }
 }
