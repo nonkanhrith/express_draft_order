@@ -4,20 +4,20 @@
   "result_message": "Operation successful",
   "trace_id": "unique-trace-id-123",
   "body": {
-    "createAt": 1672531200000,
-    "courierType": "instant_delivery",
-    "deliveryDistance": 12.5,
-    "deliveryETA": 45,
-    "deliveryFee": "5.50",
+    "create_at": 1672531200000,
+    "courier_type": "instant_delivery",
+    "delivery_distance": 12.5,
+    "delivery_eta": 45,
+    "delivery_fee": "5.50",
     "note": "Handle with care",
-    "pickupLocation": {
+    "pickup_location": {
       "label": "Sender's Home",
       "latitude": 10.762622,
       "longitude": 106.660172
     },
     "sender": {
       "name": "John Doe",
-      "phoneNumber": "+85512345678",
+      "phone_number": "+85512345678",
       "address": "123 Main Street, City, Country",
       "location": {
         "label": "Sender's Home",
@@ -29,7 +29,7 @@
     "receivers": [
       {
         "name": "Jane Smith",
-        "phoneNumber": "+85598765432",
+        "phone_number": "+85598765432",
         "address": "456 Another Street, City, Country",
         "location": {
           "label": "Receiver's Office",
@@ -40,11 +40,11 @@
       }
     ],
     "status": "draft",
-    "totalCollectPayment": 0,
-    "totalDeliveryFee": 5.5,
-    "subTotalAmount": 94.5,
-    "totalAmount": 100.0,
-    "updateAt": 1672534800000
+    "total_collect_payment": 0,
+    "total_delivery_fee": 5.5,
+    "sub_total_amount": 94.5,
+    "total_amount": 100.0,
+    "update-at": 1672534800000
   }
 }
 
