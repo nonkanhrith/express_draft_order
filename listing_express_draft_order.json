@@ -1,1 +1,109 @@
-
+{
+  "result": true,
+  "result_code": "EA_200",
+  "result_message": "Successful",
+  "trace_id": "unique-trace-id-321",
+  "body": {
+    "pagination": {
+      "limit": 10,
+      "offset": 0,
+      "count": 2
+    },
+    "data": [
+      {
+        "create_at": 1672531200000,
+        "courier_type": "instant_delivery",
+        "delivery_distance": 12.5,
+        "delivery_eta": 45,
+        "delivery_fee": 5.5,
+        "note": "Handle with care",
+        "pickup_location": {
+          "label": "Sender's Home",
+          "latitude": 10.762622,
+          "longitude": 106.660172
+        },
+        "sender": {
+          "name": "John Doe",
+          "phone_number": "+85512345678",
+          "address": "123 Main Street, City, Country",
+          "location": {
+            "label": "Sender's Home",
+            "latitude": 10.762622,
+            "longitude": 106.660172
+          },
+          "noted": "Ring the doorbell"
+        },
+        "receivers": [
+          {
+            "name": "Jane Smith",
+            "phone_number": "+85598765432",
+            "order_number": 1,
+            "address": "456 Another Street, City, Country",
+            "location": {
+              "label": "Receiver's Office",
+              "latitude": 10.780622,
+              "longitude": 106.690172
+            },
+            "distance": 12.5,
+            "delivery_fee": 5.5,
+            "status": "pending",
+            "noted": "Leave at reception desk"
+          }
+        ],
+        "status": "draft",
+        "total_collect_payment": 0,
+        "total_delivery_fee": 5.5,
+        "sub_total_amount": 94.5,
+        "total_amount": 100.0,
+        "update_at": 1672534800000
+      },
+      {
+        "create_at": 1672531200001,
+        "courier_type": "scheduled_delivery",
+        "delivery_distance": 8.2,
+        "delivery_eta": 30,
+        "delivery_fee": 4.0,
+        "note": "Deliver before noon",
+        "pickup_location": {
+          "label": "Office Warehouse",
+          "latitude": 10.8,
+          "longitude": 106.65
+        },
+        "sender": {
+          "name": "Alice Brown",
+          "phone_number": "+85511223344",
+          "address": "789 Market Road, City, Country",
+          "location": {
+            "label": "Office Warehouse",
+            "latitude": 10.8,
+            "longitude": 106.65
+          },
+          "noted": "Call before arrival"
+        },
+        "receivers": [
+          {
+            "name": "Michael Lee",
+            "phone_number": "+85555667788",
+            "order_number": 2,
+            "address": "101 High Street, City, Country",
+            "location": {
+              "label": "Receiver's Apartment",
+              "latitude": 10.812622,
+              "longitude": 106.710172
+            },
+            "distance": 8.2,
+            "delivery_fee": 4.0,
+            "status": "pending",
+            "noted": "Leave at the front desk"
+          }
+        ],
+        "status": "draft",
+        "total_collect_payment": 10.0,
+        "total_delivery_fee": 4.0,
+        "sub_total_amount": 90.0,
+        "total_amount": 94.0,
+        "update_at": 1672534801000
+      }
+    ]
+  }
+}
