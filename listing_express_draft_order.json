@@ -98,7 +98,7 @@
           }
         ],
         "status": "draft",
-        "total_collect_payment": 10.0,
+        "total_collect_payment": 0,
         "total_delivery_fee": 4.0,
         "sub_total_amount": 90.0,
         "total_amount": 94.0,
