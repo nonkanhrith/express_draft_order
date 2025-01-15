@@ -59,7 +59,7 @@
       },
       {
         "create_at": 1672531200001,
-        "courier_type": "scheduled_delivery",
+        "courier_type": "same_day",
         "delivery_distance": 8.2,
         "delivery_eta": 30,
         "delivery_fee": 4.0,
