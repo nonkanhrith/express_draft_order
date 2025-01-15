@@ -1,1 +1,139 @@
+{
+  "result": true,
+  "result_code": "EA_200",
+  "result_message": "Successful",
+  "trace_id": "unique-trace-id-321",
+  "body": {
+    "pagination": {
+      "limit": 10,
+      "offset": 0,
+      "count": 2
+    },
+    "data": [
+      {
+        "id": "0NTklrow7AqvUalcFlTm",
+        "create_at": 1672531200000,
+        "assign_at": null,
+        "courier_type": "instant_delivery",
+        "deliverer": null,
+        "delivery_name": null,
+        "delivery_distance": 12.5,
+        "delivery_eta": 45,
+        "delivery_fee": 5.5,
+        "delivery_payer": "sender",
+        "note": "Handle with care",
+        "is_using_cod": false,
+        "payment_gateway": {
+          "account_number": "098765432",
+          "amount": 100.0,
+          "create_at": 1772531200000,
+          "provider": "WING_PAY",
+          "purchase_type": "EXPRESS",
+          "tran_id": "EFD723582"
+        },
+        "pending_driver": null,
+        "pending_driver_expired_at": null,
+        "pickup_location": {
+          "label": "Sender's Home",
+          "latitude": 10.762622,
+          "longitude": 106.660172
+        },
+        "sender": {
+          "name": "John Doe",
+          "phone_number": "+85512345678",
+          "address": "123 Main Street, City, Country",
+          "location": {
+            "label": "Sender's Home",
+            "latitude": 10.762622,
+            "longitude": 106.660172
+          },
+          "noted": "Ring the doorbell"
+        },
+        "receivers": [
+          {
+            "name": "Jane Smith",
+            "phone_number": "+85598765432",
+            "order_number": 1,
+            "address": "456 Another Street, City, Country",
+            "location": {
+              "label": "Receiver's Office",
+              "latitude": 10.780622,
+              "longitude": 106.690172
+            },
+            "collect_payment": 5,
+            "distance": 12.5,
+            "delivery_fee": 5.5,
+            "status": "pending",
+            "noted": "Leave at reception desk"
+          }
+        ],
+        "switching_driver": null,
+        "status": "pending",
+        "settlement_account_name": "",
+        "settlement_bank": "WING",
+        "settlement_account_number": "00750319",
+        "total_collect_payment": 5,
+        "total_delivery_fee": 5.5,
+        "sub_total_amount": 94.5,
+        "total_amount": 100.0,
+        "update_at": 1672534800000
+      },
+      {
+        "id": "0UTklrow7AqvUalcFl123",
+        "create_at": 1772531200000,
+        "assign_at": null,
+        "courier_type": "same_day_delivery",
+        "delivery_name": null,
+        "delivery_distance": 12.5,
+        "delivery_eta": 45,
+        "delivery_fee": 5.5,
+        "delivery_payer": "sender",
+        "note": "Deliver before noon",
+        "is_using_cod": true,
+        "pickup_location": {
+          "label": "Office Warehouse",
+          "latitude": 10.8,
+          "longitude": 106.65
+        },
+        "pending_driver": null,
+        "pending_driver_expired_at": null,
+        "sender": {
+          "name": "Alice Brown",
+          "phone_number": "+85511223344",
+          "address": "789 Market Road, City, Country",
+          "location": {
+            "label": "Office Warehouse",
+            "latitude": 10.8,
+            "longitude": 106.65
+          },
+          "noted": "Call before arrival"
+        },
+        "receivers": [
+          {
+            "name": "Michael Lee",
+            "phone_number": "+85555667788",
+            "order_number": 2,
+            "address": "101 High Street, City, Country",
+            "location": {
+              "label": "Receiver's Apartment",
+              "latitude": 10.812622,
+              "longitude": 106.710172
+            },
+            "distance": 8.2,
+            "delivery_fee": 4.0,
+            "status": "pending",
+            "noted": "Leave at the front desk"
+          }
+        ],
+        "switching_driver": null,
+        "status": "pending",
+        "total_collect_payment": 0,
+        "total_delivery_fee": 4.0,
+        "sub_total_amount": 90.0,
+        "total_amount": 94.0,
+        "update_at": 1772534801000
+      }
+    ]
+  }
+}
 
